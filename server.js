@@ -62,6 +62,6 @@ app.get('/scrape', function(req, res) {
 
 });
 
-app.listen(process.ENV.PORT)
+app.listen(process.env.PORT)
 console.log('Magic happens on port ' + process.env.PORT);
 exports = module.exports = app;
